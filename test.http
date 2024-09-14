@@ -1,0 +1,72 @@
+### Étape 1: Suppression de tous les comptes
+DELETE http://localhost:8081/accounts/deleteAllAccounts
+Content-Type: application/json
+
+### Étape 2: Vérification - Aucun compte présent
+GET http://localhost:8081/accounts
+Content-Type: application/json
+
+### Étape 3: Création d'un seul compte
+POST http://localhost:8081/accounts/newAccount
+Content-Type: application/json
+
+{
+  "accountNumber": 1,
+  "customerId": 1,
+  "accountType": "Checking",
+  "branchAddress": "123 Main St",
+  "createDt": "2023-01-02"
+}
+
+### Étape 4: Vérification - Un compte présent
+GET http://localhost:8081/accounts
+Content-Type: application/json
+
+### Étape 5: Mise à jour du compte
+PUT http://localhost:8081/accounts/update/1
+Content-Type: application/json
+
+{
+  "accountNumber": 1,
+  "customerId": 1,
+  "accountType": "Savings",
+  "branchAddress": "456 Oak St",
+  "createDt": "2023-02-01"
+}
+
+### Étape 6: Vérification - Compte mis à jour
+GET http://localhost:8081/accounts
+Content-Type: application/json
+
+### Étape 7: Suppression du compte
+DELETE http://localhost:8081/accounts/deleteAccount/1
+Content-Type: application/json
+
+### Étape 8: Vérification - Aucun compte après suppression
+GET http://localhost:8081/accounts
+Content-Type: application/json
+
+### Étape 9: Création multiple de comptes
+POST http://localhost:8081/accounts/newAccounts
+Content-Type: application/json
+
+[
+  {
+    "accountNumber": 2,
+    "customerId": 2,
+    "accountType": "Checking",
+    "branchAddress": "789 Pine St",
+    "createDt": "2023-01-03"
+  },
+  {
+    "accountNumber": 3,
+    "customerId": 3,
+    "accountType": "Savings",
+    "branchAddress": "456 Oak St",
+    "createDt": "2023-01-04"
+  }
+]
+
+### Étape 10: Vérification finale - Plusieurs comptes présents
+GET http://localhost:8081/accounts
+Content-Type: application/json

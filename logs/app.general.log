@@ -1,0 +1,520 @@
+2024-09-14 11:32:35 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 11:32:35 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 49468 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 11:32:35 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 11:32:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 11:32:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2024-09-14 11:32:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 11:32:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 11:32:36 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 11:32:36 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 11:32:36 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 11:32:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 934 ms
+2024-09-14 11:32:36 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 11:32:36 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 11:32:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 11:32:37 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b332439
+2024-09-14 11:32:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 11:32:37 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 11:32:37 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 11:32:37 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 11:32:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 11:32:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 11:32:38 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 3.025 seconds (process running for 3.242)
+2024-09-14 11:32:42 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 11:32:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 11:32:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 14:19:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 14:19:21 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 53128 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 14:19:21 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 14:19:21 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 14:19:21 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+2024-09-14 14:19:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 14:19:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:19:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 14:19:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 14:19:22 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 14:19:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 937 ms
+2024-09-14 14:19:22 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 14:19:22 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 14:19:22 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 14:19:22 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d4fb0d8
+2024-09-14 14:19:22 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 14:19:22 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 14:19:23 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 14:19:23 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:19:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:19:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 14:19:24 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 2.922 seconds (process running for 3.142)
+2024-09-14 14:19:40 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 14:19:40 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 14:19:40 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-14 14:24:11 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:24:11 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 14:24:11 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 14:36:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 14:36:32 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 1536 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 14:36:32 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 14:36:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 14:36:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2024-09-14 14:36:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 14:36:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:36:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 14:36:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 14:36:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 14:36:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 946 ms
+2024-09-14 14:36:33 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 14:36:33 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 14:36:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 14:36:34 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d40498a
+2024-09-14 14:36:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 14:36:34 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 14:36:34 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 14:36:34 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:36:34 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:36:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 14:36:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 14:36:34 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-09-14 14:36:34 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-14 14:40:00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 14:40:00 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 48360 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 14:40:00 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 14:40:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 14:40:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2024-09-14 14:40:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 14:40:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:40:01 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 14:40:01 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 14:40:01 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 14:40:01 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 843 ms
+2024-09-14 14:40:01 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 14:40:01 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 14:40:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 14:40:01 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7b377a53
+2024-09-14 14:40:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 14:40:01 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 14:40:02 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 14:40:02 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:40:02 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:40:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 14:40:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 14:40:02 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-09-14 14:40:02 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-14 14:42:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 14:42:03 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 35612 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 14:42:03 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 14:42:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 14:42:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2024-09-14 14:42:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 14:42:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:42:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 14:42:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 14:42:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 14:42:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 816 ms
+2024-09-14 14:42:04 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 14:42:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 14:42:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 14:42:04 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b332439
+2024-09-14 14:42:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 14:42:04 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 14:42:05 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 14:42:05 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:42:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:42:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 14:42:05 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 2.577 seconds (process running for 2.786)
+2024-09-14 14:42:21 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 14:42:21 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 14:42:21 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-14 14:47:34 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:47:34 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 14:47:34 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 14:47:38 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 14:47:38 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 48620 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 14:47:38 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 14:47:38 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 14:47:38 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2024-09-14 14:47:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 14:47:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:47:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 14:47:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 14:47:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 14:47:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 812 ms
+2024-09-14 14:47:39 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 14:47:39 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 14:47:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 14:47:39 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@59262a90
+2024-09-14 14:47:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 14:47:39 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 14:47:40 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 14:47:40 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:47:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:47:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 14:47:41 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 2.846 seconds (process running for 3.067)
+2024-09-14 14:47:41 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 14:47:41 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 14:47:41 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-09-14 14:50:54 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:50:54 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 14:50:54 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 14:51:29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 14:51:29 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 18816 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 14:51:29 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 14:51:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 14:51:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+2024-09-14 14:51:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 14:51:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:51:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 14:51:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 14:51:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 14:51:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 925 ms
+2024-09-14 14:51:30 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 14:51:30 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 14:51:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 14:51:30 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b0e031b
+2024-09-14 14:51:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 14:51:30 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 14:51:31 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 14:51:31 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:51:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:51:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 14:51:32 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 2.819 seconds (process running for 3.054)
+2024-09-14 14:51:37 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 14:51:37 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 14:51:37 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-14 14:52:44 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:52:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 14:52:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 14:58:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 14:58:21 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 30672 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 14:58:21 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 14:58:21 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 14:58:21 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2024-09-14 14:58:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 14:58:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:58:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 14:58:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 14:58:22 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 14:58:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 887 ms
+2024-09-14 14:58:22 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 14:58:22 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 14:58:22 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 14:58:22 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ef3f661
+2024-09-14 14:58:22 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 14:58:22 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 14:58:23 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 14:58:23 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 14:58:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 14:58:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 14:58:23 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 2.836 seconds (process running for 3.06)
+2024-09-14 14:58:24 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 14:58:24 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 14:58:24 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-14 15:00:43 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 15:00:43 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 15:00:43 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 15:00:47 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 15:00:47 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 17592 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 15:00:47 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 15:00:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 15:00:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2024-09-14 15:00:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 15:00:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 15:00:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 15:00:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 15:00:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 15:00:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 847 ms
+2024-09-14 15:00:48 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 15:00:48 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 15:00:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 15:00:48 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60928a61
+2024-09-14 15:00:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 15:00:48 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 15:00:49 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 15:00:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 15:00:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 15:00:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 15:00:49 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 2.698 seconds (process running for 2.909)
+2024-09-14 15:00:55 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 15:00:55 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 15:00:55 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-09-14 15:05:40 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 15:05:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 15:05:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 15:05:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 15:05:44 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 20592 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 15:05:44 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 15:05:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 15:05:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2024-09-14 15:05:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 15:05:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 15:05:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 15:05:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 15:05:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 15:05:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 920 ms
+2024-09-14 15:05:45 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 15:05:45 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 15:05:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 15:05:45 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2755617b
+2024-09-14 15:05:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 15:05:45 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 15:05:46 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 15:05:46 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 15:05:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 15:05:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 15:05:47 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 3.054 seconds (process running for 3.266)
+2024-09-14 15:05:49 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 15:05:49 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 15:05:49 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-14 15:08:02 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 15:08:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 15:08:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 15:08:06 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 15:08:06 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 48600 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 15:08:06 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 15:08:06 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 15:08:06 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2024-09-14 15:08:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 15:08:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 15:08:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 15:08:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 15:08:07 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 15:08:07 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 827 ms
+2024-09-14 15:08:07 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 15:08:07 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 15:08:07 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 15:08:07 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@59262a90
+2024-09-14 15:08:07 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 15:08:07 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 15:08:07 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 15:08:07 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 15:08:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 15:08:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 15:08:08 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 2.771 seconds (process running for 2.976)
+2024-09-14 15:08:09 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 15:08:09 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 15:08:09 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-09-14 15:25:35 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 15:25:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 15:25:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 15:25:39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 15:25:39 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 39984 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 15:25:39 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 15:25:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 15:25:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+2024-09-14 15:25:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 15:25:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 15:25:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 15:25:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 15:25:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 15:25:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 948 ms
+2024-09-14 15:25:40 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 15:25:40 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 15:25:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 15:25:40 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e74fd84
+2024-09-14 15:25:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 15:25:40 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 15:25:41 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 15:25:41 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 15:25:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 15:25:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 15:25:42 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 2.958 seconds (process running for 3.182)
+2024-09-14 15:25:44 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 15:25:44 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 15:25:44 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-09-14 15:26:47 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 15:26:47 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 15:26:47 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 15:58:18 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 15:58:18 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 49880 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 15:58:18 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 15:58:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 15:58:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+2024-09-14 15:58:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 15:58:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 15:58:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 15:58:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 15:58:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 15:58:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 946 ms
+2024-09-14 15:58:19 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 15:58:19 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 15:58:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 15:58:19 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e4894d
+2024-09-14 15:58:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 15:58:19 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 15:58:20 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 15:58:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 15:58:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 15:58:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 15:58:20 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 3.0 seconds (process running for 3.234)
+2024-09-14 16:00:46 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 16:00:46 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 16:00:46 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 16:01:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 16:01:17 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 51836 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 16:01:17 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 16:01:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 16:01:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2024-09-14 16:01:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 16:01:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 16:01:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 16:01:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 16:01:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 16:01:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 820 ms
+2024-09-14 16:01:18 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 16:01:18 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 16:01:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 16:01:18 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6009cd34
+2024-09-14 16:01:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 16:01:18 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 16:01:19 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 16:01:19 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 16:01:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 16:01:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 16:01:19 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 2.603 seconds (process running for 2.807)
+2024-09-14 16:01:23 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 16:01:23 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 16:01:23 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-14 16:01:23 [http-nio-8081-exec-1] INFO  c.e.accounts.service.AccountsService - Deleting all accounts
+2024-09-14 16:01:23 [http-nio-8081-exec-1] INFO  c.e.accounts.service.AccountsService - All accounts deleted successfully
+2024-09-14 16:01:25 [http-nio-8081-exec-3] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:01:28 [http-nio-8081-exec-4] INFO  c.e.accounts.service.AccountsService - Account saved successfully: Accounts(accountNumber=1, customerId=1, accountType=Checking, branchAddress=123 Main St, createDt=2024-09-14)
+2024-09-14 16:01:31 [http-nio-8081-exec-2] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:01:33 [http-nio-8081-exec-5] INFO  c.e.accounts.service.AccountsService - Updating account with ID: 1
+2024-09-14 16:01:33 [http-nio-8081-exec-5] INFO  c.e.accounts.service.AccountsService - Account updated successfully: Accounts(accountNumber=1, customerId=1, accountType=Savings, branchAddress=456 Oak St, createDt=2024-09-14)
+2024-09-14 16:01:36 [http-nio-8081-exec-6] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:01:41 [http-nio-8081-exec-8] INFO  c.e.accounts.service.AccountsService - Deleting account with ID: 1
+2024-09-14 16:01:41 [http-nio-8081-exec-8] INFO  c.e.accounts.service.AccountsService - Account deleted successfully: 1
+2024-09-14 16:01:45 [http-nio-8081-exec-7] INFO  c.e.accounts.service.AccountsService - Saving multiple accounts
+2024-09-14 16:01:45 [http-nio-8081-exec-7] INFO  c.e.accounts.service.AccountsService - Account saved successfully: 2
+2024-09-14 16:01:45 [http-nio-8081-exec-7] INFO  c.e.accounts.service.AccountsService - Account saved successfully: 3
+2024-09-14 16:01:48 [http-nio-8081-exec-9] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:02:02 [http-nio-8081-exec-10] INFO  c.e.accounts.service.AccountsService - Deleting all accounts
+2024-09-14 16:02:02 [http-nio-8081-exec-10] INFO  c.e.accounts.service.AccountsService - All accounts deleted successfully
+2024-09-14 16:02:04 [http-nio-8081-exec-1] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:02:06 [http-nio-8081-exec-3] INFO  c.e.accounts.service.AccountsService - Account saved successfully: Accounts(accountNumber=1, customerId=1, accountType=Checking, branchAddress=123 Main St, createDt=2024-09-14)
+2024-09-14 16:02:11 [http-nio-8081-exec-4] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:02:14 [http-nio-8081-exec-2] INFO  c.e.accounts.service.AccountsService - Updating account with ID: 1
+2024-09-14 16:02:14 [http-nio-8081-exec-2] INFO  c.e.accounts.service.AccountsService - Account updated successfully: Accounts(accountNumber=1, customerId=1, accountType=Savings, branchAddress=456 Oak St, createDt=2024-09-14)
+2024-09-14 16:02:18 [http-nio-8081-exec-5] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:02:20 [http-nio-8081-exec-6] INFO  c.e.accounts.service.AccountsService - Deleting all accounts
+2024-09-14 16:02:20 [http-nio-8081-exec-6] INFO  c.e.accounts.service.AccountsService - All accounts deleted successfully
+2024-09-14 16:02:22 [http-nio-8081-exec-8] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:02:24 [http-nio-8081-exec-7] INFO  c.e.accounts.service.AccountsService - Account saved successfully: Accounts(accountNumber=1, customerId=1, accountType=Checking, branchAddress=123 Main St, createDt=2024-09-14)
+2024-09-14 16:02:38 [http-nio-8081-exec-9] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:02:42 [http-nio-8081-exec-10] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:02:46 [http-nio-8081-exec-1] INFO  c.e.accounts.service.AccountsService - Updating account with ID: 1
+2024-09-14 16:02:46 [http-nio-8081-exec-1] INFO  c.e.accounts.service.AccountsService - Account updated successfully: Accounts(accountNumber=1, customerId=1, accountType=Savings, branchAddress=456 Oak St, createDt=2024-09-14)
+2024-09-14 16:02:50 [http-nio-8081-exec-3] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:02:51 [http-nio-8081-exec-4] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:02:56 [http-nio-8081-exec-2] INFO  c.e.accounts.service.AccountsService - Saving multiple accounts
+2024-09-14 16:02:56 [http-nio-8081-exec-2] INFO  c.e.accounts.service.AccountsService - Account saved successfully: 2
+2024-09-14 16:02:56 [http-nio-8081-exec-2] INFO  c.e.accounts.service.AccountsService - Account saved successfully: 3
+2024-09-14 16:03:01 [http-nio-8081-exec-5] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:03:14 [http-nio-8081-exec-6] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 16:03:30 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 16:03:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 16:03:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 16:17:47 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 16:17:47 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 23948 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 16:17:47 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 16:17:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 16:17:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+2024-09-14 16:17:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 16:17:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 16:17:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 16:17:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 16:17:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 16:17:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 871 ms
+2024-09-14 16:17:48 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 16:17:48 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 16:17:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 16:17:49 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65859b44
+2024-09-14 16:17:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 16:17:49 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 16:17:49 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 16:17:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 16:17:50 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 16:17:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 16:17:50 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 2.797 seconds (process running for 3.03)
+2024-09-14 16:17:50 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 16:17:50 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 16:17:50 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-14 16:18:02 [http-nio-8081-exec-3] INFO  c.e.accounts.service.AccountsService - Account saved successfully: Accounts(accountNumber=1, customerId=1, accountType=Checking, branchAddress=123 Main St, createDt=2024-09-14)
+2024-09-14 16:18:39 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 16:18:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 16:18:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 16:18:52 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 16:18:52 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 7068 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 16:18:52 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 16:18:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 16:18:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2024-09-14 16:18:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 16:18:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 16:18:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 16:18:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 16:18:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 16:18:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 827 ms
+2024-09-14 16:18:53 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 16:18:53 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 16:18:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 16:18:53 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78479f2b
+2024-09-14 16:18:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 16:18:53 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 16:18:54 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 16:18:54 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 16:18:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 16:18:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 16:18:55 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 2.64 seconds (process running for 2.859)
+2024-09-14 16:18:58 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 16:18:58 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 16:18:58 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-14 16:19:31 [http-nio-8081-exec-3] INFO  c.e.accounts.service.AccountsService - Account saved successfully: Accounts(accountNumber=1, customerId=1, accountType=Checking, branchAddress=123 Main St, createDt=2024-09-14)
+2024-09-14 16:19:35 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 16:19:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 16:19:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-14 18:06:24 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-09-14 18:06:24 [main] INFO  c.e.accounts.AccountsApplication - Starting AccountsApplication using Java 17.0.6 with PID 49988 (C:\Users\Haythem\Desktop\0-important\accounts-v2\target\classes started by Haythem in C:\Users\Haythem\Desktop\0-important\accounts-v2)
+2024-09-14 18:06:24 [main] INFO  c.e.accounts.AccountsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-14 18:06:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 18:06:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2024-09-14 18:06:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-09-14 18:06:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-14 18:06:27 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-14 18:06:27 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-09-14 18:06:27 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-14 18:06:27 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2051 ms
+2024-09-14 18:06:27 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 18:06:27 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-14 18:06:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-14 18:06:27 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60928a61
+2024-09-14 18:06:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-14 18:06:27 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-14 18:06:29 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 18:06:29 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 18:06:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-14 18:06:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-09-14 18:06:30 [main] INFO  c.e.accounts.AccountsApplication - Started AccountsApplication in 6.699 seconds (process running for 7.23)
+2024-09-14 18:06:33 [http-nio-8081-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 18:06:33 [http-nio-8081-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-14 18:06:33 [http-nio-8081-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-09-14 18:06:33 [http-nio-8081-exec-6] INFO  c.e.accounts.service.AccountsService - Deleting all accounts
+2024-09-14 18:06:33 [http-nio-8081-exec-6] INFO  c.e.accounts.service.AccountsService - All accounts deleted successfully
+2024-09-14 18:06:59 [http-nio-8081-exec-1] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 18:07:07 [http-nio-8081-exec-3] INFO  c.e.accounts.service.AccountsService - Account saved successfully: Accounts(accountNumber=1, customerId=1, accountType=Checking, branchAddress=123 Main St, createDt=2024-09-14)
+2024-09-14 18:07:16 [http-nio-8081-exec-9] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 18:07:22 [http-nio-8081-exec-5] INFO  c.e.accounts.service.AccountsService - Updating account with ID: 1
+2024-09-14 18:07:22 [http-nio-8081-exec-5] INFO  c.e.accounts.service.AccountsService - Account updated successfully: Accounts(accountNumber=1, customerId=1, accountType=Savings, branchAddress=456 Oak St, createDt=2024-09-14)
+2024-09-14 18:07:41 [http-nio-8081-exec-2] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 18:07:57 [http-nio-8081-exec-7] INFO  c.e.accounts.service.AccountsService - Deleting account with ID: 1
+2024-09-14 18:07:57 [http-nio-8081-exec-7] INFO  c.e.accounts.service.AccountsService - Account deleted successfully: 1
+2024-09-14 18:08:09 [http-nio-8081-exec-8] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 18:08:14 [http-nio-8081-exec-4] INFO  c.e.accounts.service.AccountsService - Saving multiple accounts
+2024-09-14 18:08:14 [http-nio-8081-exec-4] INFO  c.e.accounts.service.AccountsService - Account saved successfully: 2
+2024-09-14 18:08:14 [http-nio-8081-exec-4] INFO  c.e.accounts.service.AccountsService - Account saved successfully: 3
+2024-09-14 18:08:26 [http-nio-8081-exec-10] INFO  c.e.accounts.service.AccountsService - Fetching all accounts
+2024-09-14 18:08:42 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 18:08:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-14 18:08:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
